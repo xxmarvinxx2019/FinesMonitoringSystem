@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ccsitFinesDataSet6" targetNamespace="http://tempuri.org/ccsitFinesDataSet6.xsd" xmlns:mstns="http://tempuri.org/ccsitFinesDataSet6.xsd" xmlns="http://tempuri.org/ccsitFinesDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ccsitFinesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ccsitFinesConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CCSITFineMonitoringSystem.My.MySettings.GlobalReference.Default.ccsitFinesConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="attendanceTableAdapter" GeneratorDataComponentClassName="attendanceTableAdapter" Name="attendance" UserDataComponentName="attendanceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ccsitFinesConnectionString (MySettings)" DbObjectName="ccsitFines.dbo.attendance" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT name FROM dbo.attendance</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="finesTableAdapter" GeneratorDataComponentClassName="finesTableAdapter" Name="fines" UserDataComponentName="finesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ccsitFinesConnectionString (MySettings)" DbObjectName="ccsitFines.dbo.fines" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Idnum, daypaid, overallfines, semdue, tshirt, contribution, others FROM dbo.fines</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Idnum" DataSetColumn="Idnum" />
+              <Mapping SourceColumn="daypaid" DataSetColumn="daypaid" />
+              <Mapping SourceColumn="overallfines" DataSetColumn="overallfines" />
+              <Mapping SourceColumn="semdue" DataSetColumn="semdue" />
+              <Mapping SourceColumn="tshirt" DataSetColumn="tshirt" />
+              <Mapping SourceColumn="contribution" DataSetColumn="contribution" />
+              <Mapping SourceColumn="others" DataSetColumn="others" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ccsitFinesDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ccsitFinesDataSet6" msprop:Generator_UserDSName="ccsitFinesDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="attendance" msprop:Generator_TableClassName="attendanceDataTable" msprop:Generator_TableVarName="tableattendance" msprop:Generator_TablePropName="attendance" msprop:Generator_RowDeletingName="attendanceRowDeleting" msprop:Generator_RowChangingName="attendanceRowChanging" msprop:Generator_RowEvHandlerName="attendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="attendanceRowDeleted" msprop:Generator_UserTableName="attendance" msprop:Generator_RowChangedName="attendanceRowChanged" msprop:Generator_RowEvArgName="attendanceRowChangeEvent" msprop:Generator_RowClassName="attendanceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fines" msprop:Generator_TableClassName="finesDataTable" msprop:Generator_TableVarName="tablefines" msprop:Generator_TablePropName="fines" msprop:Generator_RowDeletingName="finesRowDeleting" msprop:Generator_RowChangingName="finesRowChanging" msprop:Generator_RowEvHandlerName="finesRowChangeEventHandler" msprop:Generator_RowDeletedName="finesRowDeleted" msprop:Generator_UserTableName="fines" msprop:Generator_RowChangedName="finesRowChanged" msprop:Generator_RowEvArgName="finesRowChangeEvent" msprop:Generator_RowClassName="finesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Idnum" msprop:Generator_ColumnVarNameInTable="columnIdnum" msprop:Generator_ColumnPropNameInRow="Idnum" msprop:Generator_ColumnPropNameInTable="IdnumColumn" msprop:Generator_UserColumnName="Idnum">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="daypaid" msprop:Generator_ColumnVarNameInTable="columndaypaid" msprop:Generator_ColumnPropNameInRow="daypaid" msprop:Generator_ColumnPropNameInTable="daypaidColumn" msprop:Generator_UserColumnName="daypaid">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="overallfines" msprop:Generator_ColumnVarNameInTable="columnoverallfines" msprop:Generator_ColumnPropNameInRow="overallfines" msprop:Generator_ColumnPropNameInTable="overallfinesColumn" msprop:Generator_UserColumnName="overallfines" type="xs:int" />
+              <xs:element name="semdue" msprop:Generator_ColumnVarNameInTable="columnsemdue" msprop:Generator_ColumnPropNameInRow="semdue" msprop:Generator_ColumnPropNameInTable="semdueColumn" msprop:Generator_UserColumnName="semdue" type="xs:int" minOccurs="0" />
+              <xs:element name="tshirt" msprop:Generator_ColumnVarNameInTable="columntshirt" msprop:Generator_ColumnPropNameInRow="tshirt" msprop:Generator_ColumnPropNameInTable="tshirtColumn" msprop:Generator_UserColumnName="tshirt" type="xs:int" minOccurs="0" />
+              <xs:element name="contribution" msprop:Generator_ColumnVarNameInTable="columncontribution" msprop:Generator_ColumnPropNameInRow="contribution" msprop:Generator_ColumnPropNameInTable="contributionColumn" msprop:Generator_UserColumnName="contribution" type="xs:int" minOccurs="0" />
+              <xs:element name="others" msprop:Generator_ColumnVarNameInTable="columnothers" msprop:Generator_ColumnPropNameInRow="others" msprop:Generator_ColumnPropNameInTable="othersColumn" msprop:Generator_UserColumnName="others" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

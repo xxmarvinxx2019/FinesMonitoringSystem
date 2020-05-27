@@ -1,0 +1,596 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CCSITFineMonitoringSystem
+</name>
+</assembly>
+<members>
+<member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3.attendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3.attendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3.attendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.attendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6.attendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6.finesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6.attendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6.finesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6.attendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6.finesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.attendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.finesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet.studentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet.studentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet.studentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.studentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2.attendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2.attendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2.attendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.attendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5.attendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5.attendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5.attendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.attendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8.eventstDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8.eventstRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8.eventstRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.eventstTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.asdad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.ccsit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.ccsit_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.com_emannme_ccsitportal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.dodge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.highlight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_command_sergeant_major_csm_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_info_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_paycheque_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_police_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_schedule_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_school_director_48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_student_male_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_study_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.icons8_user_80">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.if_basics_22_296812">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.if_window_minimize_1954552">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CCSITFineMonitoringSystem.My.Resources.Resources.slsu_logo_big">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1.eventstDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1.eventstRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1.eventstRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.eventstTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4.attendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4.attendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4.attendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.attendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7.attendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7.finesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7.attendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7.finesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7.attendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7.finesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.attendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.finesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(CCSITFineMonitoringSystem.ccsitFinesDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.UpdateAll(CCSITFineMonitoringSystem.ccsitFinesDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:CCSITFineMonitoringSystem.ccsitFinesDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
